@@ -1,0 +1,53 @@
+{
+  "target": "Temperature_C",
+  "numeric_features": [
+    "AOD",
+    "Year",
+    "Month"
+  ],
+  "categorical_features": [
+    "City",
+    "Season"
+  ],
+  "feature_order": [
+    "AOD",
+    "Year",
+    "Month",
+    "City",
+    "Season"
+  ],
+  "cities": [
+    "Ahmedabad",
+    "Bengaluru",
+    "Bhopal",
+    "Chennai",
+    "Delhi",
+    "Hyderabad",
+    "Jaipur",
+    "Kanpur",
+    "Kolkata",
+    "Lucknow",
+    "Mangaluru",
+    "Patna",
+    "Pune"
+  ],
+  "seasons": [
+    "Winter",
+    "Summer",
+    "Monsoon",
+    "Post-Monsoon"
+  ],
+  "year_min": 2012,
+  "year_max": 2020,
+  "month_min": 1,
+  "month_max": 12,
+  "recommended_model": "Random Forest",
+  "best_model_by_r2": "XGBoost",
+  "model_files": {
+    "Linear Regression": "linear_regression.joblib",
+    "Decision Tree": "decision_tree.joblib",
+    "Random Forest": "random_forest.joblib",
+    "SVR": "svr.joblib",
+    "XGBoost": "xgboost.joblib"
+  }
+}
